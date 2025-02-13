@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كشف درجات الطلاب - الكلية المهنية بعبري</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>الكلية المهنية بعبري</h1>
+        <h2>كشف درجات الطلاب</h2>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">الدرجات</a></li>
+                <li><a href="#">الإعدادات</a></li>
+                <li><a href="#">تسجيل الخروج</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <div class="student-info">
+                <p><strong>الاسم:</strong> أحمد بن سالم</p>
+                <p><strong>رقم الطالب:</strong> 12345</p>
+                <p><strong>المستوى:</strong> السنة الثانية</p>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>المادة</th>
+                        <th>الدرجة</th>
+                        <th>التقدير</th>
+                        <th>الحالة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>الرياضيات</td>
+                        <td>90</td>
+                        <td>ممتاز</td>
+                        <td>ناجح</td>
+                    </tr>
+                    <tr>
+                        <td>الفيزياء</td>
+                        <td>85</td>
+                        <td>جيد جدًا</td>
+                        <td>ناجح</td>
+                    </tr>
+                    <tr>
+                        <td>اللغة العربية</td>
+                        <td>75</td>
+                        <td>جيد</td>
+                        <td>ناجح</td>
+                    </tr>
+                    <tr>
+                        <td>الإنجليزي</td>
+                        <td>65</td>
+                        <td>مقبول</td>
+                        <td>ناجح</td>
+                    </tr>
+                    <tr>
+                        <td>البرمجة</td>
+                        <td>95</td>
+                        <td>امتياز</td>
+                        <td>ناجح</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button id="downloadPDF">تنزيل كشف الدرجات PDF</button>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

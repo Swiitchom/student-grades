@@ -1,0 +1,4 @@
+document.getElementById("downloadPDF").addEventListener("click", function() {
+    let element = document.querySelector(".content");
+    html2pdf(element);
+});
